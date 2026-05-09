@@ -1,7 +1,7 @@
 package com.gravity.physics;
 
 
-enum Colour {
+public enum Colour {
     WHITE,
     RED,
     BLUE,

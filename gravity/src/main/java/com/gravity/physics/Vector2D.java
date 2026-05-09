@@ -1,8 +1,8 @@
 package com.gravity.physics;
 
 public class Vector2D {
-    double x;
-    double y;
+    private double x;
+    private double y;
 
     public Vector2D(double x, double y) {
         this.x = x;
@@ -23,5 +23,9 @@ public class Vector2D {
 
     public void setY(double y) {
         this.y = y;
+    }
+
+    public Vector2D add(Vector2D other) {
+        return new Vector2D(this.x + other.x, this.y + other.y);
     }
 }

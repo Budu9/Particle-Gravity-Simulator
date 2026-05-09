@@ -1,11 +1,11 @@
 package com.gravity.physics;
 
 public class Particle {
-    Vector2D position;
-    Vector2D velocity;
-    Colour colour;
-    double mass;
-    double radius;
+    private Vector2D position;
+    private Vector2D velocity;
+    private Colour colour;
+    private double mass;
+    private double radius;
 
     public Particle(Vector2D position, Vector2D velocity, Colour colour, double mass, double radius) {
         this.position = position;
