@@ -1,5 +1,5 @@
-package com.gravity;
-
+package com.gravity.controllers;
+import com.gravity.App;
 import java.io.IOException;
 import javafx.fxml.FXML;
 
